@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e4e2fc1-a4c9-4af3-844b-0e996ea02d7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../parser/lib/antlr-4.9.2-complete.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../parser/parser.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/libraries/Grammar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab6.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/com/company/Grammar/generated/Commands.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/com/company/Grammar/generated/Commands.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/com/company/Grammar/generated/CommandsLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/com/company/Grammar/generated/CommandsLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/com/company/Grammar/src/Commands.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/com/company/Grammar/test.commands" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/generated/Commands.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/generated/Commands.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/generated/CommandsBaseListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/generated/CommandsLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/generated/CommandsLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/generated/CommandsListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/src/Commands.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../out/production/Lab6/test.commands" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/Colors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/Commands.g4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/Commands.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/Commands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/Commands.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/CommandsBaseListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/CommandsBaseVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/CommandsLexer.interp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/CommandsLexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/CommandsLexer.tokens" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/CommandsListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/CommandsParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/CommandsVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/EvalVisitor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/Shapes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/Value.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Grammar/test.commands" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1qDJ8hmhOnC1vaqQN3GoDGiu7hi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e4e2fc1-a4c9-4af3-844b-0e996ea02d7f" name="Default Changelist" comment="" />
+      <created>1616608069283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616608069283</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

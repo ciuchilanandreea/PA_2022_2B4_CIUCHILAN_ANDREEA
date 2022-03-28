@@ -1,0 +1,3 @@
+draw circle name : circ, coord_x : 100, coord_y : 100, radius : 100, color : RED
+fill triangle name : tri, coord_x : 100, coord_y : 100, radius : 100, color : RED
+delete circle name : circ, coord_x : 100, coord_y : 100, radius : 100, color : RED
