@@ -1,29 +1,57 @@
-import java.sql.*;
-import java.text.ParseException;
+/**
+ * JDBC - Lab 8
+ * @author : Ciuchilan Andreea
+ */
+
+
+import Connection.ConnectionType;
+import ThreadPool.ThreadPool;
+import GUI.Application;
+
+import java.io.IOException;
+import java.sql.SQLException;
 
 public class Main {
 
-    public static void main(String[] args) throws SQLException, ClassNotFoundException, ParseException {
-        Singleton.getInstance();
+    /**
+     * Main class of the program
+     * @param args
+     * @throws ClassNotFoundException
+     */
+    public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException {
+        runApplication();
+        //singletonConnection();
+        //poolConnection();
+    }
 
-        CountriesDao CountriesList=new CountriesDao();
-        CountriesList.insert(new String[]{"4","Franta","Europa","383"});
-        CountriesList.deleteAll();
-        CountriesList.insert(new String[]{"1","Indonezia","Asia","764"});
-        CountriesList.insert(new String[]{"2","Canada","America de Nord","763"});
-        CountriesList.insert(new String[]{"3","Grecia","Europa","556"});
-        CountriesList.insert(new String[]{"4","Grecia1","Europa","556"});
+    /**
+     * Method runs application
+     * @throws ClassNotFoundException
+     * @throws IOException
+     */
+    public static void runApplication() throws ClassNotFoundException, IOException {
+        Application.getInstance().setConnectionType(ConnectionType.SINGLETON);
+        Application.getInstance().run();
+    }
 
-        ContinentsDao ContinentsList=new ContinentsDao();
-        ContinentsList.deleteAll();
-        ContinentsList.insert(new String[]{"1","Europa"});
-        ContinentsList.insert(new String[]{"2","Asia"});
-        ContinentsList.insert(new String[]{"3","America de Nord"});
-        System.out.println(ContinentsList.toString());
+    /**
+     * Method creates a test using 15 singleton connections
+     * @throws ClassNotFoundException
+     * @throws IOException
+     */
+    public static void singletonConnection() throws ClassNotFoundException, IOException {
+        for (int i = 0; i < 15; i++) {
+            Application.getInstance().setConnectionType(ConnectionType.SINGLETON);
+            Application.getInstance().run();
+        }
+    }
 
-
-        Singleton.closeConn();
-
+    /**
+     * Method creates a test using a ThreadPool of 15 worker tasks (using Hikari CP)
+     */
+    public static void poolConnection() {
+        ThreadPool threadPool = new ThreadPool(15);
+        threadPool.run();
     }
 
 }

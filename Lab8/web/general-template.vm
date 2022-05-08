@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Catalog</title>
+</head>
+<body>
+<h1> Catalog $title </h1>
+<table border="1" cellspacing="0" cellpadding="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+    </tr>
+    #foreach ( $obj in $objs)
+    <tr>
+        <th>$obj.id</th>
+        <th>$obj.name</th>
+    </tr>
+    #end
+</table>
+</body>
+</html>

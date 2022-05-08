@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie-Catalog</title>
+</head>
+<body>
+<h1> Catalog $title </h1>
+<table border="1" cellspacing="0" cellpadding="1">
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Release_Date</th>
+        <th>Duration</th>
+        <th>Score</th>
+    </tr>
+    #foreach ( $obj in $objs)
+    <tr>
+        <th>$obj.id</th>
+        <th>$obj.title</th>
+        <th>$obj.releaseDate</th>
+        <th>$obj.duration</th>
+        <th>$obj.score</th>
+    </tr>
+    #end
+</table>
+</body>
+</html>
