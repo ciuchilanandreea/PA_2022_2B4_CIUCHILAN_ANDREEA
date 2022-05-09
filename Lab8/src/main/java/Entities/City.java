@@ -3,7 +3,7 @@ package Entities;
 /**
  * Class City models an city
  */
-public class City extends Person{
+public class City extends Cities {
 
     /**
      * Constructor

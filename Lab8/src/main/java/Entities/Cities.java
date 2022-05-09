@@ -1,6 +1,6 @@
 package Entities;
 
-public abstract class Person {
+public abstract class Cities {
     private int id;
     private String name;
 
@@ -9,7 +9,7 @@ public abstract class Person {
      * @param id
      * @param name
      */
-    public Person(int id, String name){
+    public Cities(int id, String name){
         this.id = id;
         this.name = name;
     }

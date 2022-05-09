@@ -1,7 +1,6 @@
 package Connection;
 
 import Entities.City;
-import Entities.Director;
 import Entities.Continent;
 import Entities.Country;
 import com.zaxxer.hikari.HikariConfig;
@@ -103,11 +102,6 @@ public class ConnectionPool {
             stmt = conn.prepareStatement(query);
             stmt.setInt(1, ((City) object).getId());
             stmt.setString(2, ((City) object).getName());
-        } else if (object instanceof Director) {
-            query = "INSERT INTO " + tableName + " VALUES (?,?);";
-            stmt = conn.prepareStatement(query);
-            stmt.setInt(1, ((Director) object).getId());
-            stmt.setString(2, ((Director) object).getName());
         }
 
         try {

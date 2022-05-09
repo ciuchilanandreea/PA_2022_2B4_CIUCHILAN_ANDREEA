@@ -4,7 +4,6 @@ import Connection.ConnectionType;
 import CustomExceptions.AccessDenied;
 import CustomExceptions.IllegalNumberOfArgs;
 import Entities.City;
-import Entities.Director;
 import Entities.Country;
 import GUI.Application;
 
@@ -59,8 +58,6 @@ public class Insert extends Command {
                 if (parameters.size() != 2) {
                     error = new IllegalNumberOfArgs("Illegal number of arguments for instance of directors. Required :cp id name");
                     object = null;
-                } else {
-                    object = new Director(Integer.parseInt(parameters.get(0)), parameters.get(1));
                 }
             }
         }
