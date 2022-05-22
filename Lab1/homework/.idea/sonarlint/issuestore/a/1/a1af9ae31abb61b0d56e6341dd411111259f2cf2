@@ -1,0 +1,49 @@
+
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¡şÏÖøÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+4
+java:S1659	"Declare "p" on a separate line.(îÈ¨C
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ùñøËùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(üÄ
+]	java:S1253"<This block of commented-out lines of code should be removed.(“òĞ’şÿÿÿÿ8Ø¸øˆô/
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(·Şíó
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(¢·ïøÿÿÿÿ
+U	java:S106D"9Replace this use of System.out or System.err by a logger.(ßµ¹’8ö›ˆô/
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(µ¯Ä8ö›ˆô/
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8±Åïˆô/
+U	java:S106Q"9Replace this use of System.out or System.err by a logger.(‚ÓÈª8²Åïˆô/
+9
+java:S2119W"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
+?
+java:S1659`"$Declare "indexJ" on a separate line.(°Ïİ™üÿÿÿÿ
+=
+java:S1172h"(Remove this unused method parameter "p".(ëÂr
+E
+java:S5411."*Use the primitive boolean expression here.(”¾îıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÛ¨çúÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¡şÏÖøÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+4
+java:S1659	"Declare "p" on a separate line.(îÈ¨C
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ùñøËùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(üÄ
+V	java:S1253"<This block of commented-out lines of code should be removed.(“òĞ’şÿÿÿÿ
+N	java:S106@"9Replace this use of System.out or System.err by a logger.(·Şíó
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(¢·ïøÿÿÿÿ
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(ßµ¹’
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(µ¯Ä
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(‚ÓÈª
+9
+java:S2119W"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
+?
+java:S1659`"$Declare "indexJ" on a separate line.(°Ïİ™üÿÿÿÿ
+=
+java:S1172h"(Remove this unused method parameter "p".(ëÂr
+E
+java:S5411."*Use the primitive boolean expression here.(”¾îıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÛ¨çúÿÿÿÿ
