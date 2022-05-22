@@ -1,0 +1,28 @@
+
+J
+java:S3740@"/Provide the parametrized type for this generic.(½Ü©Œùÿÿÿÿ
+[
+java:S18542"@Remove this useless assignment to local variable "shortestPath".(Ã³®Ÿıÿÿÿÿ
+L
+java:S1197"*Move the array designators [] to the type.(º ìıÿÿÿÿ8¥§èÎø/
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(¥‘æúÿÿÿÿ8Í§èÎø/
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(©ûÜ©øÿÿÿÿ8Ï§èÎø/
+U	java:S106:"9Replace this use of System.out or System.err by a logger.(´›‡8â§èÎø/
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(Ç‹ó¦8ä§èÎø/
+Z
+java:S1854@"8Remove this useless assignment to local variable "hash".(½Ü©Œùÿÿÿÿ8è§èÎø/
+]	java:S125M"<This block of commented-out lines of code should be removed.(–ƒÔºùÿÿÿÿ8ô§èÎø/
+X	java:S125R"<This block of commented-out lines of code should be removed.(œëÃç8õ§èÎø/
+o	java:S100V"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş•£„ûÿÿÿÿ8ø§èÎø/
+`
+java:S1659W">Declare "i" and all following declarations on a separate line.(·ÌÎüÿÿÿÿ8€¨èÎø/
+A
+java:S1659b"$Declare "indexj" on a separate line.(İ•ú‘8‰¨èÎø/
+A
+java:S1659j"$Declare "indexj" on a separate line.(İ•ú‘8¨èÎø/
+U	java:S106o"9Replace this use of System.out or System.err by a logger.(Á’á„8¨èÎø/
+Z	java:S106p"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¨èÎø/
+R
+java:S1144i"0Remove this unused private "printMatrix" method.(£ä¾·ÿÿÿÿÿ8“¨èÎø/
+m	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñØ÷–8™¨èÎø/
+m	java:S117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñØ÷–8™¨èÎø/
