@@ -1,0 +1,11 @@
+
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(…×ž»üÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(³áÉöÿÿÿÿÿ
+S
+java:S1854Z"=Remove this useless assignment to local variable "auxiliary".(À“»Ç
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ç†ýäüÿÿÿÿ
+T	java:S106‚"9Replace this use of System.out or System.err by a logger.(¤Ïˆáþÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+I
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ
