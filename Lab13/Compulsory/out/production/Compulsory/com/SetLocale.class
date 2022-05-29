@@ -1,0 +1,19 @@
+Êþº¾   ; N
+      java/lang/Object <init> ()V
+  	 
+   java/util/Locale forLanguageTag &(Ljava/lang/String;)Ljava/util/Locale;
+     
+setDefault (Ljava/util/Locale;)V  res.Messages
+     
+getDefault ()Ljava/util/Locale;
+      java/util/ResourceBundle 	getBundle @(Ljava/lang/String;Ljava/util/Locale;)Ljava/util/ResourceBundle;  
+locale.set
+    ! " 	getString &(Ljava/lang/String;)Ljava/lang/String;
+  $ % & getDisplayName ()Ljava/lang/String; ( java/text/MessageFormat
+ ' *  + (Ljava/lang/String;)V
+ ' - . / format &(Ljava/lang/Object;)Ljava/lang/String;	 1 2 3 4 5 java/lang/System out Ljava/io/PrintStream;
+ 7 8 9 : + java/io/PrintStream println < com/SetLocale Code LineNumberTable LocalVariableTable this Lcom/SetLocale; 	setLocale 	newLocale Ljava/lang/String; baseName messages Ljava/util/ResourceBundle; pattern 	arguments [Ljava/lang/Object; message 
+SourceFile SetLocale.java ! ;           =   /     *· ±    >        ?        @ A   	 B +  =   ¼     @*¸ ¸ L+¸ ¸ M,¶ N½ Y¸ ¶ #S:» 'Y-· )¶ ,:² 0¶ 6±    >   & 	   
+   
+        (  7  ?  ?   >    @ C D   
+ 6 E D   . F G   ' H D  (  I J  7 	 K D   L    M
