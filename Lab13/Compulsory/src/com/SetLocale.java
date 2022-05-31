@@ -9,8 +9,7 @@ public class SetLocale {
     {
         Locale.setDefault(Locale.forLanguageTag(newLocale));
         String baseName = "res.Messages";
-        ResourceBundle messages =
-                ResourceBundle.getBundle(baseName, Locale.getDefault());
+        ResourceBundle messages = ResourceBundle.getBundle(baseName, Locale.getDefault());
 
         String pattern = messages.getString("locale.set");
         Object[] arguments = {Locale.getDefault().getDisplayName()};

@@ -28,8 +28,7 @@ public class Info {
         System.out.println("Weekdays : " + Arrays.toString(DateFormatSymbols.getInstance(specific).getWeekdays()));
         System.out.println("Months: " + Arrays.toString(DateFormatSymbols.getInstance(specific).getMonths()));
 
-        DateTimeFormatter formatter = DateTimeFormatter
-                .ofLocalizedDate(FormatStyle.FULL)
+        DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL)
                 .withLocale(specific);
         LocalDateTime today = LocalDateTime.now();
 
@@ -39,8 +38,7 @@ public class Info {
     public static void showInfo()
     {
         String baseName = "res.Messages";
-        ResourceBundle messages =
-                ResourceBundle.getBundle(baseName, Locale.getDefault());
+        ResourceBundle messages = ResourceBundle.getBundle(baseName, Locale.getDefault());
 
         String pattern = messages.getString("info");
         Object[] arguments = {Locale.getDefault().getDisplayName()};
@@ -56,8 +54,7 @@ public class Info {
         System.out.println("Weekdays : " + Arrays.toString(DateFormatSymbols.getInstance(defaultLocale).getWeekdays()));
         System.out.println("Months: " + Arrays.toString(DateFormatSymbols.getInstance(defaultLocale).getMonths()));
 
-        DateTimeFormatter formatter = DateTimeFormatter
-                .ofLocalizedDate(FormatStyle.FULL)
+        DateTimeFormatter formatter = DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL)
                 .withLocale(defaultLocale);
         LocalDateTime today = LocalDateTime.now();
 

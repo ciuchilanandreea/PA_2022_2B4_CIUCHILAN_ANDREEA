@@ -1,0 +1,11 @@
+
+l
+java:S1450"WRemove the "neighbor" field and declare it as a local variable in the relevant methods.(Ô³·>
+Q	java:S125"<This block of commented-out lines of code should be removed.(¼¶¬Œ
+g
+java:S42759"QRefactor this getter so that it actually refers to the field "subsetOfNeighbors".(‡£‹¨
+@
+java:S1068	"%Remove this unused "m" private field.(¯ïÂ¡þÿÿÿÿ
+A
+java:S1068",Remove this unused "neighbor" private field.(Ô³·>
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÛ¨çúÿÿÿÿ

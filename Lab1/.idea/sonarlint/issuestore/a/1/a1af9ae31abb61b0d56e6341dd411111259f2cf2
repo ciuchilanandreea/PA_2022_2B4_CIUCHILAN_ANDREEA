@@ -1,0 +1,32 @@
+
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(¡şÏÖøÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+4
+java:S1659"Declare "p" on a separate line.(îÈ¨C
+N	java:S106"9Replace this use of System.out or System.err by a logger.(êÓà°
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(üÄ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(·Şíó
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(¢·ïøÿÿÿÿ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(ßµ¹’
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(µ¯Ä
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(·Şíó
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(¢·ïøÿÿÿÿ
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(ßµ¹’
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(µ¯Ä
+S	java:S106S"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106Z"9Replace this use of System.out or System.err by a logger.(‚ÓÈª
+N	java:S106k"9Replace this use of System.out or System.err by a logger.(ÍÚ‰
+S	java:S106m"9Replace this use of System.out or System.err by a logger.(©ì­şÿÿÿÿ
+M	java:S106q"9Replace this use of System.out or System.err by a logger.(‘Ã¤Q
+9
+java:S2119w"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
+@
+java:S1659€"$Declare "indexJ" on a separate line.(°Ïİ™üÿÿÿÿ
+>
+java:S1172ˆ"(Remove this unused method parameter "p".(ëÂr
+E
+java:S54111"*Use the primitive boolean expression here.(”¾îıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(õÛ¨çúÿÿÿÿ
