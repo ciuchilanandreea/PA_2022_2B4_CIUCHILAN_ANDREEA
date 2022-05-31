@@ -1,7 +1,0 @@
-
-N	java:S106"9Replace this use of System.out or System.err by a logger.(‡œ£Ñ
-@
-java:S1481#"*Remove this unused "count" local variable.(æÕ¿¼
-N	java:S106*"9Replace this use of System.out or System.err by a logger.(°¦—¥
-I
-java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ

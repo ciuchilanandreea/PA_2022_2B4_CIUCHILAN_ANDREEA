@@ -4,7 +4,6 @@ import com.DisplayError;
 import com.DisplayLocales;
 import com.Info;
 import com.SetLocale;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

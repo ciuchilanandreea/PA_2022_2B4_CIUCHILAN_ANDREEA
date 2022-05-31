@@ -9,7 +9,7 @@ import java.net.UnknownHostException;
 
 public class Client {
     private String address = "127.0.0.1";
-    private int port = 8081;
+    private int port = 8082;
     private Socket socket;
     private String name;
 

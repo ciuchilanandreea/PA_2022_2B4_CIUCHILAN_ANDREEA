@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class Server
 {
-    public static final int PORT = 8081;
+    public static final int PORT = 8082;
 
     public Server() throws IOException, SQLException {
         ServerSocket serverSocket = null;

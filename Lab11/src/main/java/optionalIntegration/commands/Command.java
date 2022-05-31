@@ -5,6 +5,6 @@ import org.slf4j.LoggerFactory;
 
 public interface Command {
     Logger log = LoggerFactory.getLogger(CommandRegister.class);
-    String uri = "https://localhost:443/person/";
+    String uri = "https://localhost:449/person/";
     String run();
 }

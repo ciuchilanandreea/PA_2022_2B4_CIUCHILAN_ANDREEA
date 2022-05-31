@@ -11,7 +11,7 @@ public class CommandFriend implements Command {
     private String friend1;
     private String friend2;
 
-    final String uri = "https://localhost:443/friends/";
+    final String uri = "https://localhost:449/friends/";
 
     public CommandFriend(String friend1, String friend2) {
         this.friend1 = friend1;

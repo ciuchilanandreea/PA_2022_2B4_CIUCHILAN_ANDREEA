@@ -7,8 +7,7 @@ public class DisplayError {
     public static void displayError()
     {
         String baseName = "res.Messages";
-        ResourceBundle messages =
-                ResourceBundle.getBundle(baseName, Locale.getDefault());
+        ResourceBundle messages = ResourceBundle.getBundle(baseName, Locale.getDefault());
         System.out.println(messages.getString("invalid"));
     }
 }

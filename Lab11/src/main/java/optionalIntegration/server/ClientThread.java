@@ -113,7 +113,7 @@ public class ClientThread extends Thread
                     }
                     else
                     {
-                        res.append(clientName).append(" could not befriend ").append(s).append("\n");
+                        res.append(clientName).append(" could not be friend ").append(s).append("\n");
                     }
                 }
                 return res.toString().replace("\n", "/socketNewLine/");

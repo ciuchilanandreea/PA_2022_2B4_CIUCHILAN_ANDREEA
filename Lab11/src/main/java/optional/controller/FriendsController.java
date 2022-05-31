@@ -100,7 +100,7 @@ public class FriendsController
     }
 
     @GetMapping("/most/{k}")
-    ResponseEntity<Iterable<Person>> listMostConnectedUsers(@PathVariable Integer k)
+    ResponseEntity<Iterable<Person>> listMostPopularUsers(@PathVariable Integer k)
     {
         List<Person> allPersons = getPersonsSorted(k);
         if (allPersons == null)
